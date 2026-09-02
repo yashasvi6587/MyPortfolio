@@ -1,50 +1,11 @@
-import project_1 from '../assets/project_1.jpg'
-import project_2 from '../assets/project_2.webp'
+import project_1 from '../assets/project_1.jfif'
+import project_2 from '../assets/project_2.png'
 import project_3 from '../assets/project_3.jpg'
 import project_4 from '../assets/project_4.jpg'
-import project_5 from '../assets/project_5.jpg'
+import project_5 from '../assets/project_5.png'
 import project_6 from '../assets/project_6.jpg'
 import project_7 from '../assets/project_7.webp'
-import hospital from "../assets/hospital.png"
-import tour from "../assets/tour.png"
-import youtube from "../assets/youtube.png"
 
-
-// const mywork_data = [
-//     {
-//         w_no:1,
-//         w_name:"Web design",
-//         w_img:hospital,
-//         w_link:"https://""Github"".com/yashasvi6587/Hospital-Booking-Appointment-App.git"
-//     "},
-//  "   {
-//         w_no:2,
-//         w_name:"Web design",
-//         w_img:youtube,
-//         w_link:"https://""Github"".com/yashasvi6587/Youtube-Clone.git"
-//     "},
-//  "   {
-//         w_no:3,
-//         w_name:"Web design",
-//         w_img:tour,
-//         w_link:"https://""Github"".com/yashasvi6587/Back-End-Tour-Website-Project.git"
-//     "},
-//  "   // {
-//     //     w_no:4,
-//     //     w_name:"Web design",
-//     //     w_img:project4_img
-//     // },
-//     // {
-//     //     w_no:5,
-//     //     w_name:"Web design",
-//     //     w_img:project5_img
-//     // },
-//     // {
-//     //     w_no:6,
-//     //     w_name:"Web design",
-//     //     w_img:project6_img
-//     // },
-// ]
  
 export const projectimages  = {
     project_1,
@@ -54,43 +15,42 @@ export const projectimages  = {
     project_5,
     project_6,
     project_7
-    // "Github"
 }
 
 export const projects = [
     {
         title:"E - Commerce",
         image:project_7,
-        desc:"The platform is tailored for biker lifestyle apparel, with a strong emphasis on modern design, performance, and seamless user experience.",
+        desc:"The platform is tailored for lifestyle apparel, with a strong emphasis on modern design, performance, and seamless user experience.",
         tech:"Tech: React.js, Tailwind CSS, HTML, CSS, JavaScript, Node.js, Express.js, MongoDB Atlas, Mongoose, Passport.js, Stripe, Razorpay, Cloudinary, Multer",
         link1:"https://github.com/yashasvi6587/A-Basic-To-do-List-App",
-        link2:"https://exitt-frontend.vercel.app/",
+        link2:"https://keshavwear.vercel.app/",
         highlight1:"Strong Online Presence & User Experience",
         highlight2:"Secure Payment Gateways & Efficient Logistics",
         highlight3:"Customer Experience & Support",
         
     },
     {
-        title:"Tour & Travel App",
+        title:"Team Task Management App",
         image:project_1,
-        desc:"A dynamic travel and tourism website that showcases top destinations, interactive image galleries, and individual tour pages with detailed info. It provides users with an engaging UI and smooth navigation for travel planning.",
-        tech:"Tech: HTML5, CSS3, JavaScrript, React, Tailwind CSS, Web3Forms",
+        desc:"This Team Task Management Application is a robust, full-stack web platform designed to streamline workplace collaboration and project tracking. It allows teams to create, assign, and monitor tasks in real-time, enhancing productivity and accountability.",
+        tech:"Tech: HTML5, CSS3, JavaScrript, React, Tailwind CSS",
         link1:"https://github.com/yashasvi6587/Tour-And-Travel-App",
-        link2:"https://bagpakkers.netlify.app/",
-        highlight1:"Visually rich grid layout with hover effects",
-        highlight2:"Detailed tour pages dynamically rendered from assets",
-        highlight3:"Contact form with real-time email notifications",
+        link2:"https://ethara-ai-project-5rf4.vercel.app/",
+        highlight1:"Instant updates for task status changes and team comments without page refreshes.",
+        highlight2:"Interactive Kanban boards, progress bars, and analytics charts for tracking project health.",
+        highlight3:"Secure user authentication with distinct permissions for administrators, project managers, and team members.",
     },
     {
-        title:"Doctor Booking App",    
+        title:"Skribble IO Clone",    
         image:project_2,
-        desc:"A hospital management platform that allows patients to book appointments with doctors based on specialty and availability. Includes secure login, appointment history, and admin dashboard.",
-        tech:"Tech: HTML5, CSS3, JavaScrript, React, Tailwind CSS, Node.JS, ExpressJs, MongoDB, Cloudinary,  Web3Forms",
+        desc:"A skribbl.io clone is a multiplayer drawing and guessing game where one player draws a chosen word in real-time, and other players type guesses in a chatbox to earn points.",
+        tech:"Tech: HTML5, CSS3, JavaScrript, React, Tailwind CSS, Node.JS, ExpressJs, MongoDB, Socket.io",
         link1:"https://github.com/yashasvi6587/Hospital-Booking-Appointment-App",
-        link2:"https://doctbooking.netlify.app/",
-        highlight1:"User authentication with JWT",
-        highlight2:"Real-time appointment availability checks",
-        highlight3:"Admin panel to manage doctors, slots, and users",
+        link2:"https://skribble-io-six.vercel.app/",
+        highlight1:"Canvas strokes replicate instantly across all connected screens.",
+        highlight2:"Features automated point scoring and instant answer masking",
+        highlight3:"Supports private rooms, custom word lists, and player limits.",
     },
     {
         title:"YouTube Clone",
@@ -114,28 +74,28 @@ export const projects = [
         highlight2:"Detailed coin view with graphs",
         highlight3:"Search functionality with auto-filter",
     },
-    {
-        title:"Weather Forecast App",
-        image:project_5,
-        desc:"A weather forecasting application that displays real-time weather data for any city with 5-day forecasts using weather APIs. Includes temperature, humidity, wind speed, and weather icons.",
-        tech:"Tech: HTML5, CSS3, JavaScript, OpenWeather API",
-        link1:"https://github.com/yashasvi6587/Weather-Forceast-App",
-        link2:"https://climater.netlify.app/",
-        highlight1:"Search-based weather query",
-        highlight2:"API integration for real-time data",
-        highlight3:"Responsive design for all screen sizes",
-    },
-    {
-        title:"To-Do List App",
-        image:project_6,
-        desc:"A lightweight and responsive task management app that lets users create, update, and delete daily tasks. Tasks are stored persistently and can be marked as complete or pending.",
-        tech:"Tech: HTML5, CSS3, JavaScrript, React, Tailwind CSS, LocalStorage",
-        link1:"https://github.com/yashasvi6587/A-Basic-To-do-List-App",
-        link2:"https://doinglister.netlify.app/",
-        highlight1:"Simple and intuitive UI",
-        highlight2:"State management using React hooks",
-        highlight3:"Persistent tasks with LocalStorage",
-    },
+    // {
+    //     title:"Finance Dashobard RBAC App",
+    //     image:project_5,
+    //     desc:"Designed to help users monitor, analyze, and manage financial data in real time. It aggregates complex financial metrics—such as income, expenses, investments, and operational costs—and visualizes them through interactive charts and data grids.",
+    //     tech:"Tech: HTML5, CSS3, JavaScript, , ReactJS, TailwindCSS, Chart.js",
+    //     link1:"https://github.com/yashasvi6587/Weather-Forceast-App",
+    //     link2:"https://climater.netlify.app/",
+    //     highlight1:"Uses advanced charting libraries to display financial trends, predictive analytics, and budget forecasting.",
+    //     highlight2:"Offers seamless CRUD operations to log transactions and update balances instantly.",
+    //     highlight3:"Features robust user authentication and structured database schemas to ensure sensitive financial data remains protected.",
+    // },
+    // {
+    //     title:"To-Do List App",
+    //     image:project_6,
+    //     desc:"A lightweight and responsive task management app that lets users create, update, and delete daily tasks. Tasks are stored persistently and can be marked as complete or pending.",
+    //     tech:"Tech: HTML5, CSS3, JavaScrript, React, Tailwind CSS, LocalStorage",
+    //     link1:"https://github.com/yashasvi6587/A-Basic-To-do-List-App",
+    //     link2:"https://doinglister.netlify.app/",
+    //     highlight1:"Simple and intuitive UI",
+    //     highlight2:"State management using React hooks",
+    //     highlight3:"Persistent tasks with LocalStorage",
+    // },
     
 ]
 
